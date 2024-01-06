@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Aman Kumar Sinha - Portfolio</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#intro">Aman</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <header class="bg-secondary text-white text-center py-5">
+    <div class="container">
+      <h1>Aman Kumar Sinha</h1>
+      <p>Passionate Front-End Web Developer</p>
+    </div>
+  </header>
+
+  <section id="intro" class="bg-light py-5">
+    <div class="container">
+      <p>Welcome to my portfolio. I am Aman Kumar Sinha, a highly motivated and detail-oriented BCA graduate
+        with a strong foundation in computer science and a deep passion for web development.</p>
+
+      <p>I specialize in building dynamic and user-friendly applications, utilizing my expertise in HTML, CSS,
+        JavaScript, React.js, Node.js, and MongoDB.</p>
+
+      <p>Feel free to explore my portfolio and get in touch if you have any exciting projects to collaborate
+        on!</p>
+      <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+    </div>
+  </section>
+
+  
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <h2 class="text-center section-heading">Portfolio</h2>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="project">
+            <img src="/images/project-1.png" alt="Project 1" class="img-fluid">
+            <div class="project-details">
+              <h3>To Do List</h3>
+              <p>Manage your tasks easily</p>
+              <p><strong>Tech:</strong> ReactJs & MUI</p>
+              <a href="https://github.com/AmanKumarSinhaGitHub/React-To-Do-List-App" target="_blank"
+                class="btn btn-secondary">Code</a>
+              <a href="https://amankumarsinhagithub.github.io/React-To-Do-List-App/" target="_blank"
+                class="btn btn-primary">Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="project">
+            <img src="./images/project-2.png" alt="Project 2" class="img-fluid">
+            <div class="project-details">
+              <h3>Resume Builder</h3>
+              <p>A simple Resume Generator</p>
+              <p><strong>Tech:</strong> ReactJs</p>
+              <a href="https://github.com/AmanKumarSinhaGitHub/Resume-CV-Builder" target="_blank"
+                class="btn btn-secondary">Code</a>
+              <a href="https://amankumarsinhagithub.github.io/Resume-CV-Builder/" target="_blank"
+                class="btn btn-primary">Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="project">
+            <img src="./images/project-3.png" alt="Project 3" class="img-fluid">
+            <div class="project-details">
+              <h3>To-Do-List</h3>
+              <p>Manage your tasks easily</p>
+              <p><strong>Tech:</strong> EJS, NodeJs, ExpressJs & MongoDB</p>
+              <a href="https://github.com/AmanKumarSinhaGitHub/To-Do-List-App" target="_blank"
+                class="btn btn-secondary">Code</a>
+              <a href="https://to-do-list-rz0n.onrender.com/" target="_blank" class="btn btn-primary">Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center section-heading">Skills</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React.Js</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>EJS</li>
+            <li>Node.Js</li>
+            <li>Express.Js</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Git</li>
+            <li>Github</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center section-heading">Contact Me</h2>
+      <form id="contact-form">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+
+        
+
+        <div class="mb-3">
+          <label for="message" class="form-label">Message:</label>
+          <textarea id="message" name="message" class="form-control" required></textarea>
+        </div>
+
+        <button type="button" onclick="submitForm()" class="btn btn-primary">Send Message</button>
+      </form>
+
+
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <div class="social-links mt-4">
+        <a href="https://github.com/AmanKumarSinhaGitHub" target="_blank" class="btn btn-dark me-2">GitHub</a>
+        <a href="https://www.linkedin.com/in/amankumarsinha/" target="_blank" class="btn btn-dark me-2">LinkedIn</a>
+        <a href="https://twitter.com/AmanKumarSinha_" target="_blank" class="btn btn-dark">Twitter</a>
+      </div>
+    </div>
+    <div class="container">
+      <p id="copyright">&copy; 2024 Aman Kumar Sinha. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
